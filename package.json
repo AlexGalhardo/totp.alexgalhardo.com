@@ -1,16 +1,13 @@
 {
-  "name": "otp-auth",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "otpauth": "^9.3.1",
-    "qrcode": "^1.5.3"
-  }
+	"name": "totp.alexgalhardo.com",
+	"scripts": {
+		"dev": "lite-server"
+	},
+	"dependencies": {
+		"otpauth": "^9.3.1",
+		"qrcode": "^1.5.3"
+	},
+	"devDependencies": {
+		"lite-server": "^2.6.1"
+	}
 }
